@@ -1,0 +1,19 @@
+name: superproton
+channels:
+  - https://conda.ovito.org
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - pandas>=2.0
+  - tqdm>=4.65
+  - ase>=3.22
+  - ovito>=3.9,<4
+  - jupyterlab>=4.0
+  - pytest>=7.4
+  - pip
+  - pip:
+      - nbclient>=0.10
+      - -e .

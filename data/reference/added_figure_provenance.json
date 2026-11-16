@@ -1,0 +1,172 @@
+{
+  "generator": "scripts/import_paper_intermediates.py",
+  "source_inputs": [
+    {
+      "source": "dynamics/post_md_data/CDP_550K_4ns_XO_dir_vec_t.npy",
+      "sha256": "7fa8daf57b7335d2f6c95e44e5916ede524cc34ec2913e6880947e377c4cc097"
+    },
+    {
+      "source": "dynamics/cubicCDP_counting_O.vasp",
+      "sha256": "9bff5372456e37901c5fb9ac54738241baae6d4fc2e4ca0f318b8d862c682bad"
+    },
+    {
+      "source": "dynamics/post_md_data/H_coord_id/hpc_data/CDP_525K_4ns_eq10ps.npz",
+      "sha256": "3ffdddee0db9e8821f3bc918a1054a43b1f50a8df68f6400374da6846a5a7e9d"
+    },
+    {
+      "source": "dynamics/post_md_data/CHS_550K_4ns_XO_dir_vec_t.npy",
+      "sha256": "7ddfb576474bee580ce62572761a7e9ba0c46860c6e2fccab254902321725f73"
+    },
+    {
+      "source": "dynamics/post_md_data/H_coord_id/hpc_data/CHS_450K_4ns_eq10ps.npz",
+      "sha256": "6f1acfeff2d83392403dfdcb2cbd40a0bc631ee0461c7e198bb777b3fddb0f4e"
+    },
+    {
+      "source": "dynamics/post_md_data/res_time_CDP_525K_4ns_eq10ps.npz",
+      "sha256": "1926e47fd930b70b298026dfb52b31cfdf094456be266d0e95d9827be10a2520"
+    },
+    {
+      "source": "dynamics/post_md_data/res_time_CDP_550K_4ns_eq10ps.npz",
+      "sha256": "36da7428ef9bffd36bc31daeaf18824b6d7a8d8a8a3ead2685059de059d8f2a8"
+    },
+    {
+      "source": "dynamics/post_md_data/res_time_CDP_575K_4ns_eq10ps.npz",
+      "sha256": "39e6c6fec843f64c680c52abe5b0dde9278c4321d0ef3e73c7a1d14658b6131a"
+    },
+    {
+      "source": "dynamics/post_md_data/new_res_time_CDP_525K_4ns_eq10ps.npz",
+      "sha256": "ce28e45c5341650f1fc282a1612055b800700f4d7850faf488441c68058a224f"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CDP_525K.csv",
+      "sha256": "ef08ff6db339a5744f9104ce1c09b1c6ef8504d61e88fb7ccea763a590a30e9d"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CDP_540K.csv",
+      "sha256": "73bb526784dc66e8b1954c267456ea78b6206957f9f753590c7b284548cfe681"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CDP_550K.csv",
+      "sha256": "bf238c24792a687869d51acf4b0e40a3598c647ac6b0a16be3393296d3ce5f4a"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CDP_560K.csv",
+      "sha256": "e0b5f743e4357f4dc8cd162e76e75fa62fdd53a61ae9f62ea516d7975e5a7c36"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CDP_575K.csv",
+      "sha256": "9164daad5619b67030ebc2b4bc3d0a38cbeafe78d3d5364765e2d148ef386998"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CDP_600K.csv",
+      "sha256": "d255007cb7de3a0cb62525bd42793295772ea9f02e3c51071526d5f0f9abfbbc"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CDP_625K.csv",
+      "sha256": "c5b37ac532a7ae6b2f13f555f68b2281fba6173bd7741038dc042ec091be9780"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CDP_650K.csv",
+      "sha256": "94e671d69b79fd6fbe3483dea59c31684413d4eac45be985ad829b12e502939d"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_415K.csv",
+      "sha256": "4d3523a543acfcaa37337e7ae960d64d11cff708f1843af3bb774a2f4e9a1a2f"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_425K.csv",
+      "sha256": "f479a220a33cc1167945a38f8fc9f42c4c35e828b745e0a912b25484e484174c"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_450K.csv",
+      "sha256": "207656aa05aeef510bd883e78f67dabd93407e1499b695ca04046a17910b5bc6"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_460K.csv",
+      "sha256": "284338bb5ce6bb56aace250de9f291d9be0b903df350e220aaba89ab47895d35"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_475K.csv",
+      "sha256": "c2300349a4dcfc4eb46dfab06badc2342449ce5c31fe82aed78671a13cedca9b"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_500K.csv",
+      "sha256": "f1ffad17cd369c645e7c7e6de90a523c4b02250173d96613b6d0dc2f21e97942"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_525K.csv",
+      "sha256": "3bb36b736ae00827e7ef54186cef1d0c39188985c3ee4bac8fe5979e2ce9a4b4"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_550K.csv",
+      "sha256": "a9042566e52d7ead7b7cbd659639b2697fa0c189022e56f1bca3bdc5a6a8a2f5"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_575K.csv",
+      "sha256": "17359c809c13bd054045a42c53429fa4be53f72a111f4282ba659aaac9971bf4"
+    },
+    {
+      "source": "residence_times/results_pointing_attempt/CHS_600K.csv",
+      "sha256": "a89d5eeda3b2003a196e8fcc223e2683f29dc51ce631dbc06dd97ac5e3057ec4"
+    },
+    {
+      "source": "dynamics/ovito_helper.py",
+      "sha256": "b1f792f4eb5dcb95bca2526a44d54df56f0ffbf9713e8093efca6a0e28254940"
+    },
+    {
+      "source": "dynamics/XO_rot.py",
+      "sha256": "72099335a050ade752e203ef18ac8636c6a97d96996626cca86efbadfe8ad32b"
+    },
+    {
+      "source": "dynamics/proton_dyn_test.py",
+      "sha256": "687cd702dce83f28686c40bf47e07cde86bc84158171bfa6539450ca2ad3286a"
+    },
+    {
+      "source": "paper_revision/Van_Hove_analysis/event_correlation.py",
+      "sha256": "0c1287508885b02ee5a47ff8306b89efcf85578fad16f0db13c9e9be1955c428"
+    },
+    {
+      "source": "residence_times/bi-exp_vs_piecewise.py",
+      "sha256": "69fa2a698860864cb785dcf638b9618f4a8e144d99cf95a5070bfcb4618cba83"
+    },
+    {
+      "source": "paper_plot/res_time/plot_categorized_res_time.py",
+      "sha256": "f76f6ea95cc1ff5b90a24247d94bca2b16b776200803f53e4fd19864e2391f50"
+    },
+    {
+      "source": "residence_times/pointing_transfer_prod.py",
+      "sha256": "7c3f168d2a33f673bc5e5efa7a663dd7c9dd7ae664c7869e7eea1b54476ae56c"
+    },
+    {
+      "source": "residence_times/plot_pointing_lookahead.py",
+      "sha256": "5cc9dcee3d154f59824dc756d67213fe12a9f5b320e082d845afdb2d68aaf312"
+    }
+  ],
+  "trajectory_inputs": [
+    {
+      "material": "CDP",
+      "temperature_K": 525,
+      "filename": "dump_1.trj",
+      "used_frames": [
+        0
+      ],
+      "first_frame_sha256": "b787861c6019b54b19ba666d112bdfd215b9cc6cff7491db4d254f9ea5833192"
+    },
+    {
+      "material": "CHS",
+      "temperature_K": 450,
+      "filename": "dump_1.trj",
+      "used_frames": [
+        0
+      ],
+      "first_frame_sha256": "9bfeb1787ff0f228fcc2e8a4cd62a8d1435bab50441260c9fe9e3995e271f3dd"
+    }
+  ],
+  "notes": [
+    "Orientation: 550 K, frames [0,80000), single column 23, 100x100 bins; CHS fixed initial xy swap.",
+    "Coordination: completed O-pair intervals, 200-frame offset, least-occupied visited host, strict mutual-NN cached counts.",
+    "S10: comparison=True; SI fit policy differs from the main-text rate policy.",
+    "Lookahead: original first-row P_cross_lk*_fresh values (rounded to four decimals)."
+  ],
+  "generator_sha256": "eaa86d29e9f9d66a305ced2d9c52ff3d5271bb427a0f5d19a84fedc9782913c7"
+}

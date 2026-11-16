@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "superproton"
+version = "0.1.0"
+description = "Analysis pipeline for the proton slingshot mechanism in CsH2PO4 and CsHSO4 from ML molecular dynamics"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Menghang Wang", email = "menghangwang@g.harvard.edu" }
+]
+keywords = ["molecular-dynamics", "solid-acid", "proton-conductivity", "allegro", "lammps"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "ase>=3.22",
+    "pandas>=2.0",
+    "tqdm>=4.65",
+    "ovito>=3.9,<4",
+]
+
+[project.optional-dependencies]
+tutorial = ["jupyterlab>=4.0", "nbformat>=5.9", "nbclient>=0.10", "ipykernel>=6.25"]
+dev = [
+    "pytest>=7.4",
+    "nbclient>=0.10",
+    "jupyterlab>=4.0",
+    "ruff>=0.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/mir-group/super_proton"
+Paper = "https://doi.org/10.1021/jacs.5c21965"
+Issues = "https://github.com/mir-group/super_proton/issues"
+
+[tool.setuptools.packages.find]
+include = ["superproton*"]
+exclude = ["notebooks*", "tests*", "data*", "docs*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# The reference regression tests that need a multi-GB production trajectory skip
+# themselves unless SUPERPROTON_CDP_525K_TRJ / SUPERPROTON_CHS_450K_TRJ point at
+# one; see tests/test_reference.py.
+addopts = "-ra"

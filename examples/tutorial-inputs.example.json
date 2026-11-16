@@ -1,0 +1,22 @@
+{
+  "CDP": {
+    "analysis": "/path/to/CDP_525K_4ns.dump",
+    "analysis_temperature_K": 525,
+    "tracking": "/path/to/CDP_525K_1.5ns.dump",
+    "tracking_temperature_K": 525,
+    "orientation": "/path/to/CDP_550K_4ns.dump",
+    "orientation_temperature_K": 550,
+    "pointing": "/path/to/CDP_550K_4ns.dump",
+    "pointing_temperature_K": 550
+  },
+  "CHS": {
+    "analysis": "/path/to/CHS_450K_4ns.dump",
+    "analysis_temperature_K": 450,
+    "tracking": "/path/to/CHS_500K_1.5ns.dump",
+    "tracking_temperature_K": 500,
+    "orientation": "/path/to/CHS_550K_4ns.dump",
+    "orientation_temperature_K": 550,
+    "pointing": "/path/to/CHS_550K_4ns.dump",
+    "pointing_temperature_K": 550
+  }
+}

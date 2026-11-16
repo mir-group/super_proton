@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: >-
+  Cite the paper in preferred-citation when using these analysis methods.
+  Also record the software version or commit and the analysis settings.
+type: software
+title: "Superproton: solid-acid proton transport analysis"
+version: 0.1.0
+authors:
+  - family-names: Wang
+    given-names: Menghang
+repository-code: https://github.com/mir-group/super_proton
+license: MIT
+preferred-citation:
+  type: article
+  title: >-
+    Revealing the Proton Slingshot Mechanism in Solid Acid Electrolytes
+    through Machine-Learning Molecular Dynamics
+  authors:
+    - family-names: Wang
+      given-names: Menghang
+    - family-names: Ding
+      given-names: Jingxuan
+    - family-names: Xiong
+      given-names: Grace
+    - family-names: Zhan
+      given-names: Ni
+    - family-names: Owen
+      given-names: Cameron
+    - family-names: Musaelian
+      given-names: Albert
+    - family-names: Xie
+      given-names: Yu
+    - family-names: Molinari
+      given-names: Nicola
+    - family-names: Adams
+      given-names: Ryan
+    - family-names: Kozinsky
+      given-names: Boris
+    - family-names: Haile
+      given-names: Sossina
+  journal: Journal of the American Chemical Society
+  year: 2026
+  volume: 148
+  issue: 40
+  start: 42913
+  end: 42927
+  doi: 10.1021/jacs.5c21965

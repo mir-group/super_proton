@@ -1,0 +1,17 @@
+dataset,T_K,D_cm2_s,D_err_cm2_s
+thermal_expansion,525,1.869e-07,1.035e-11
+thermal_expansion,540,2.555e-07,2.486e-11
+thermal_expansion,550,3.286e-07,4.442e-11
+thermal_expansion,560,3.754e-07,2.771e-11
+thermal_expansion,575,5.357e-07,4.616e-11
+thermal_expansion,600,7.589e-07,6.28e-11
+thermal_expansion,625,1.03e-06,1.456e-10
+thermal_expansion,650,1.45e-06,1.004e-10
+fixed_cell,525,1.848e-07,1.369e-11
+fixed_cell,540,2.692e-07,1.259e-11
+fixed_cell,550,3.18e-07,1.965e-11
+fixed_cell,560,3.735e-07,1.734e-11
+fixed_cell,575,4.122e-07,3.55e-11
+fixed_cell,600,7.156e-07,4.74e-11
+fixed_cell,625,9.102e-07,7.793e-11
+fixed_cell,650,1.186e-06,9.8e-11

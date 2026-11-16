@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Notebook outputs we don't want to track
+notebooks/figures/
+notebooks/cache/
+notebooks/_scratch/
+
+# Regenerated figures and analysis output. The reference data under
+# data/reference/ IS tracked; these are derived from it or from a trajectory.
+figures/output/
+results/
+
+# Test + coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local-only data (the small example dumps in data/ ARE tracked; full Zenodo dumps are not)
+data/zenodo/
+data/*.lammpstrj
+data/cache/
+
+# Machine-local tutorial inputs; never publish personal paths.
+examples/tutorial-inputs.local.json
+
+# Local credentials and experiment-service state
+.env
+.env.*
+!.env.example
+!.env.template
+.netrc
+.pypirc
+wandb/
+.wandb/
+.ssh/
+.aws/
+id_rsa
+id_ed25519
