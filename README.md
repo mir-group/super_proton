@@ -4,27 +4,16 @@ Python toolkit for proton transport and polyanion dynamics in CsH<sub>2</sub>PO<
 
 > M. Wang, J. Ding, G. Xiong, N. Zhan, C. Owen, A. Musaelian, Y. Xie, N. Molinari, R. Adams, B. Kozinsky, S. Haile. *Revealing the Proton Slingshot Mechanism in Solid Acid Electrolytes through Machine-Learning Molecular Dynamics.* *Journal of the American Chemical Society* **148** (40), 42913–42927 (2026). [DOI: 10.1021/jacs.5c21965](https://doi.org/10.1021/jacs.5c21965).
 
-## Install
-
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/), then:
-
-```bash
-git clone https://github.com/mir-group/super_proton.git
-cd super_proton
-uv venv --python 3.11 --managed-python
-source .venv/bin/activate
-uv pip install -e ".[tutorial]"
-```
-
-This creates a separate Python environment with the scientific dependencies,
-OVITO, Jupyter and the local package. All commands below run from the repository
-root with this environment activated. Conda users can use
-[`environment.yml`](environment.yml) instead.
-
 ## Learn the core methods with the tutorial
 
-The [six-part notebook](notebooks/superproton-tutorial.ipynb) teaches the paper's
-core analysis methods and how to use the code. By default, it uses the bundled
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mir-group/super_proton/blob/main/notebooks/superproton-tutorial.ipynb)
+
+Open the [six-part tutorial](https://colab.research.google.com/github/mir-group/super_proton/blob/main/notebooks/superproton-tutorial.ipynb)
+in Google Colab and choose **Runtime → Run all**. The first cell installs the
+dependencies and downloads the example data. Everything runs in Colab's CPU
+runtime; no local installation or GPU is needed.
+
+The notebook teaches the paper's core analysis methods using the bundled
 **75 ps** CDP and CHS trajectories for short demonstrations, rather than
 reproducing the published results.
 
@@ -34,6 +23,9 @@ reproducing the published results.
 4. Measure spatial–temporal event correlations and temporal overlaps.
 5. Measure rotation displacement and O–H reorientation underlying the slingshot.
 6. Map orientation probability landscapes and vector autocorrelation.
+
+To run the same [notebook locally](notebooks/superproton-tutorial.ipynb), follow
+the [installation instructions](#install), then:
 
 ```bash
 jupyter lab notebooks/superproton-tutorial.ipynb
@@ -47,6 +39,23 @@ Use `superproton.workflow.Analysis` for the same analyses in Python. For other
 compatible solid-acid trajectories, supply an explicit `AtomMapping`; the paper
 CLI provides CDP and CHS presets. The notebook includes input requirements,
 atom mappings and examples for your own trajectories.
+
+## Install
+
+For local use, install [uv](https://docs.astral.sh/uv/getting-started/installation/), then:
+
+```bash
+git clone https://github.com/mir-group/super_proton.git
+cd super_proton
+uv venv --python 3.11 --managed-python
+source .venv/bin/activate
+uv pip install -e ".[tutorial]"
+```
+
+This creates a separate Python environment with the scientific dependencies,
+OVITO, Jupyter and the local package. Run local commands from the repository
+root with this environment activated. Conda users can use
+[`environment.yml`](environment.yml) instead.
 
 ## Reproduce the paper's figures
 
